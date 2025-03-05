@@ -1,0 +1,23 @@
+{
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit",
+      "source.sortMembers": "explicit"
+    },
+    "cSpell.words": [
+      "ALAYA",
+      "Cqrs",
+      "Fatora",
+      "Includeable"
+    ],
+    "cSpell.enabled": true
+}
+  

@@ -1,0 +1,43 @@
+{
+  "name": "cars-ai-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "Ai",
+    "Ai-Agent",
+    "Cars",
+    "Cars-Ai-Agent",
+    "Generative-Ai",
+    "Google Gemini 2.0 Flash"
+  ],
+  "author": "Fahd S.",
+  "license": "ISC",
+  "description": "An AI agent that uses Google Gemini 2.0 Flash to provide information about cars.",
+  "dependencies": {
+    "@google/generative-ai": "^0.23.0",
+    "@types/express": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.25.0",
+    "@typescript-eslint/parser": "^8.25.0",
+    "dotenv": "^16.4.7",
+    "eslint-config-prettier": "^10.0.2",
+    "eslint-plugin-prettier": "^5.2.3",
+    "express": "^4.21.2",
+    "langchain": "^0.3.19",
+    "prettier": "^3.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0",
+    "typescript-eslint": "^8.25.0"
+  }
+}
