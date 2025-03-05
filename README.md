@@ -38,6 +38,10 @@ This project implements an AI agent designed to interact with and provide inform
 
 2.  **Interact with the AI agent:**
 
+    ```bash
+    pnpm start
+    ```
+    
     * The script will start, and you can then provide your car-related queries.
     * The agent will process your input and provide a response.
 
